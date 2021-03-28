@@ -30,6 +30,13 @@ should be rewarded for it with a share of the unsold tokens.
 
 ## Reasoning & Analysis
 
+* https://radicle.community/t/discussion-should-unsold-rad-be-distributed-amongst-lbp-contributors/1527
+
+* https://radicle.community/t/discussion-should-the-remaining-rad-balances-from-the-lbp-event-be-distributed-amongst-lbp-contributors/1674
+
+* https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944
+
+
 This distribution would help the project by putting more votes into the hands of individual 
 community members. Putting it straight back into the treasury essentially puts it under the 
 control of the early backers as they still have most of the votes. And there will be more 
