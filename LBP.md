@@ -8,11 +8,12 @@
 
 ## Functional Description
 
-This is a proposal to reward the LBP holders that bought RADs in LBP and never sold their RADs.
+It's being proposed that distrubuting 151614.2475 RAD from Radicle Treasury with 6
+months' lock time to [the LBP holders][hd] who holds 559728.7298901365 RAD from the
+LBP till now.
 
-It's being proposed that distrubute 151614.2475 RAD from Radicle Treasury to [LBP holders][hd]
-who holds 559728.7298901365 RAD from LBP till now.
-
+1. Count the LBP holders, maybe base on [this script][ts]
+2. Distribute RAD to the holders
 
 
 ## Purpose
@@ -20,8 +21,9 @@ who holds 559728.7298901365 RAD from LBP till now.
 This distribution would help the project by putting more votes into the hands of individual
 community members for helping radicle being more decentralized. 
 
-As the first proposal not drafted by the core team, this proposal would encourage more community
-members joining the governance of radicle.
+As the first proposal not drafted by the core team, this proposal could be a template for 
+more community driven proposals, and it would encourage more community members joining the
+governance of radicle.
 
 The amount of this distrubution depends on the UNIX timestamp of the first commit of [OSCOIN][oc], 
 the date, the dream starts, for regarding and respecting the perseverance of the Radicle Team.
@@ -40,7 +42,7 @@ smart contract controlled fully and transparently by Radicle token holders.
 
 Since [Exit LBP & add Uniswap liquidity?][ea], the unsold RADs has been back to the radicle 
 treasury, and after [transfering 287k RADs to uniswap pool][tl], there are around 1.45M RADs
-remained from LBP.
+left from LBP.
 
 Early supporters of Radicle were able to become part of the community by buying the Rad token for 
 $1.5 USD. LBP supporters paid between $10 and $30. LBP contributors support the project just as much 
@@ -87,6 +89,11 @@ metioned above, we took several polls for surveying should we put forward this p
   * Distribute tokens by the UNIX epoch timestamp of the initial commits of OSCOIN, the date, the dream starts.
 
 
+In the last poll we vote distributing 15161.42475 RAD, 0.027 per RAD, after calcuating it over again,
+it can not achieve the purpose putting more votes into the hands of individual community members, so
+it is 151614.2475 RAD now.
+
+
 
 ## Technical Implementation
 
@@ -98,15 +105,20 @@ holders' address.
 
 ## Impact
 
-The LBP holders are not selling their RAD in a short time, this proposal hardly can add
-liquidity to the market but distribute more votes to the individual community members,
-besides, this will encourage more community members holding their RAD.
+The LBP holders are not selling their RAD in a short time, instead they hold their RAD for 
+the longest time, this proposal hardly can add liquidity to the market but distribute more 
+votes to the individual community members, besides, this will encourage more community members 
+holding their RAD.
 
 
 
 ## Open Questions
 
+* There is a lot of community members join radicle as holders after the LBP, how could we set a 
+mechanism benefiting the RAD holders?
 
+* It seems [radicle-contracts][rc] doesn't have a function that can execute this proposal 
+immediately, if it passes, who will be writing the code?
 
 
 [sd]: https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/79
@@ -115,3 +127,4 @@ besides, this will encourage more community members holding their RAD.
 [tl]: https://etherscan.io/token/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3?a=0x8da8f82d2bbdd896822de723f55d6edf416130ba
 [hd]: https://github.com/radicle-unofficial/holders/blob/main/lbp_holders.json
 [rc]: https://github.com/radicle-dev/radicle-contracts
+[ts]: https://github.com/radicle-unofficial/holders
